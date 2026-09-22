@@ -9,7 +9,7 @@
 
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
+  <link rel="stylesheet" href="app-nav.css">
   <style>
     * {
       box-sizing: border-box;
@@ -102,41 +102,10 @@
       font-size: 15px;
     }
 
-    /* BOTTOM NAV */
-
-    .bottom-nav {
-      position: fixed;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      height: 68px;
-      background: #51227d;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      align-items: center;
-      z-index: 1000;
-      box-shadow: 0 -2px 8px rgba(0,0,0,.18);
-    }
-
-    .nav-button {
-      height: 68px;
-      border: 0;
-      background: transparent;
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-decoration: none;
-      font-size: 25px;
-    }
-
-    .nav-button.home {
-      color: #d8b5ff;
-    }
-  </style>
+ </style>
 </head>
 
-<body>
+<body class="has-bottom-nav">
 
   <div class="header">
     <a href="index.html" aria-label="Back">
