@@ -162,6 +162,20 @@
   </nav>
 
  <script>
+   function formatNotificationTime(time) {
+  if (!time) return '';
+
+  const date = new Date(time);
+
+  return date.toLocaleString('en-GB', {
+    day: 'numeric',
+    month: 'short',
+    hour: 'numeric',
+    minute: '2-digit',
+    hour12: true,
+    timeZone: 'Europe/London'
+  }).replace(',', ' ·');
+   }
 async function loadNotifications() {
   const list = document.getElementById('notificationList');
 
@@ -197,7 +211,7 @@ async function loadNotifications() {
         <div class="notification-content">
           <div class="notification-title">${item.title || ''}</div>
           <div class="notification-message">${item.message || ''}</div>
-          <div class="notification-time">${item.time || ''}</div>
+          <div class="notification-time">${formatNotificationTime(item.time)}</div>
         </div>
       `;
 
