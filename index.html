@@ -200,6 +200,36 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
   </style>
 </head>
 
+<script>
+async function updateWinnersToday() {
+  try {
+    const response = await fetch(
+      'https://www.marvalouscompetitions.co.uk/?_app_winners=' + Date.now(),
+      { cache: 'no-store' }
+    );
+
+    const html = await response.text();
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+
+    const counter = doc.getElementById('mcWinnersNumber');
+
+    if (counter) {
+      const count = counter.getAttribute('data-count');
+
+      if (count !== null && count !== '') {
+        document.getElementById('todayWinners').textContent = count;
+      }
+    }
+  } catch (error) {
+    console.log('Could not update winners count');
+  }
+}
+
+updateWinnersToday();
+
+setInterval(updateWinnersToday, 30000);
+</script>
+  
 <body>
 
 <div class="app">
