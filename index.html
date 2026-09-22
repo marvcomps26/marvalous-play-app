@@ -284,16 +284,73 @@ setInterval(updateWinnersToday, 30000);
 </div>
 
 <script>
+const socialOverlay = document.getElementById('socialOverlay');
+const socialPanel = document.querySelector('.social-panel');
+
+let socialStartY = 0;
+let socialCurrentY = 0;
+let socialDragging = false;
+
 function openSocial(event) {
   event.preventDefault();
-  document.getElementById('socialOverlay').classList.add('show');
+
+  socialPanel.style.transform = '';
+  socialPanel.style.transition = '';
+
+  socialOverlay.classList.add('show');
 }
 
 function closeSocial(event) {
   if (event.target.id === 'socialOverlay') {
-    document.getElementById('socialOverlay').classList.remove('show');
+    closeSocialPanel();
   }
 }
+
+function closeSocialPanel() {
+  socialPanel.style.transition = 'transform .3s ease';
+  socialPanel.style.transform = 'translateY(100%)';
+
+  setTimeout(() => {
+    socialOverlay.classList.remove('show');
+    socialPanel.style.transform = '';
+    socialPanel.style.transition = '';
+  }, 300);
+}
+
+socialPanel.addEventListener('touchstart', function(event) {
+  socialStartY = event.touches[0].clientY;
+  socialCurrentY = socialStartY;
+  socialDragging = true;
+
+  socialPanel.style.transition = 'none';
+}, { passive: true });
+
+socialPanel.addEventListener('touchmove', function(event) {
+  if (!socialDragging) return;
+
+  socialCurrentY = event.touches[0].clientY;
+
+  const distance = socialCurrentY - socialStartY;
+
+  if (distance > 0) {
+    socialPanel.style.transform = `translateY(${distance}px)`;
+  }
+}, { passive: true });
+
+socialPanel.addEventListener('touchend', function() {
+  if (!socialDragging) return;
+
+  socialDragging = false;
+
+  const distance = socialCurrentY - socialStartY;
+
+  if (distance > 100) {
+    closeSocialPanel();
+  } else {
+    socialPanel.style.transition = 'transform .25s ease';
+    socialPanel.style.transform = 'translateY(0)';
+  }
+});
 </script>
   
 <body>
