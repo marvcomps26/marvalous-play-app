@@ -500,4 +500,17 @@ socialPanel.addEventListener('touchend', function() {
 </div>
 
 </div>
+<script>
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    const splash = document.getElementById('splashScreen');
 
+    if (splash) {
+      splash.classList.add('hide');
+    }
+  }, 1800);
+});
+</script>
+
+</body>
+</html>
