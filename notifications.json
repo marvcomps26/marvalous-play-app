@@ -1,1 +1,9 @@
-
+{
+  "notifications": [
+    {
+      "title": "Welcome to the Marvalous App",
+      "message": "You can now find all our latest updates right here.",
+      "time": "Today"
+    }
+  ]
+}
