@@ -1,0 +1,16 @@
+{
+  "name": "Marvalous Competitions",
+  "short_name": "Marvalous",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#51227d",
+  "theme_color": "#51227d",
+  "icons": [
+    {
+      "src": "app-icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
