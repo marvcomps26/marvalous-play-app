@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#51227d">
+
+  <title>Latest Winners</title>
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      min-height: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f5f5;
+    }
+
+    body {
+      padding-bottom: 68px;
+    }
+
+    /* HEADER */
+
+    .header {
+      height: 72px;
+      background: #51227d;
+      color: white;
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+      gap: 18px;
+      box-shadow: 0 2px 7px rgba(0,0,0,.2);
+    }
+
+    .header a {
+      color: white;
+      font-size: 23px;
+      text-decoration: none;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 21px;
+      font-weight: 800;
+    }
+
+    /* WINNERS */
+
+    .winners {
+      max-width: 520px;
+      margin: 0 auto;
+      background: white;
+    }
+
+    .winner {
+      min-height: 92px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 13px 18px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    .winner img {
+      width: 62px;
+      height: 62px;
+      border-radius: 50%;
+      object-fit: cover;
+      background: #eee;
+      flex-shrink: 0;
+    }
+
+    .winner-info {
+      min-width: 0;
+    }
+
+    .winner-title {
+      color: #32154d;
+      font-size: 15px;
+      font-weight: 800;
+      margin-bottom: 5px;
+    }
+
+    .winner-details {
+      color: #666;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    .loading {
+      padding: 45px 20px;
+      text-align: center;
+      color: #666;
+      font-size: 15px;
+    }
+
+    /* BOTTOM NAV */
+
+    .bottom-nav {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 68px;
+      background: #51227d;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      align-items: center;
+      z-index: 1000;
+      box-shadow: 0 -2px 8px rgba(0,0,0,.18);
+    }
+
+    .nav-button {
+      height: 68px;
+      border: 0;
+      background: transparent;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-size: 25px;
+    }
+
+    .nav-button.home {
+      color: #d8b5ff;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <a href="index.html" aria-label="Back">
+      <i class="fa-solid fa-arrow-left"></i>
+    </a>
+
+    <h1>Latest Instant Winners</h1>
+  </div>
+
+  <div class="winners" id="winnerList">
+    <div class="loading">
+      Loading latest winners...
+    </div>
+  </div>
+
+  <nav class="bottom-nav">
+
+    <button class="nav-button" onclick="history.back()" aria-label="Back">
+      <i class="fa-solid fa-arrow-left"></i>
+    </button>
+
+    <a class="nav-button home" href="index.html" aria-label="Home">
+      <i class="fa-solid fa-house"></i>
+    </a>
+
+    <a class="nav-button" href="index.html#notifications" aria-label="Notifications">
+      <i class="fa-solid fa-bell"></i>
+    </a>
+
+  </nav>
+
+  <script>
+    async function loadWinners() {
+      const winnerList = document.getElementById('winnerList');
+
+      try {
+        const response = await fetch(
+          'instant-winners.json?t=' + Date.now(),
+          { cache: 'no-store' }
+        );
+
+        const data = await response.json();
+
+        if (!data.winners || data.winners.length === 0) {
+          winnerList.innerHTML =
+            '<div class="loading">No recent winners to show.</div>';
+          return;
+        }
+
+        winnerList.innerHTML = '';
+
+        data.winners.forEach(item => {
+          const row = document.createElement('div');
+          row.className = 'winner';
+
+          const details = Array.isArray(item.details)
+            ? item.details.filter(line => line !== item.winner).join(' • ')
+            : '';
+
+          row.innerHTML = `
+            <img src="${item.image || ''}" alt="">
+            <div class="winner-info">
+              <div class="winner-title">${item.winner || ''}</div>
+              <div class="winner-details">${details}</div>
+            </div>
+          `;
+
+          winnerList.appendChild(row);
+        });
+
+      } catch (error) {
+        winnerList.innerHTML =
+          '<div class="loading">Could not load the latest winners.</div>';
+      }
+    }
+
+    loadWinners();
+  </script>
+
+</body>
+</html>
