@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#51227d">
+
+  <title>Charity Donations</title>
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link rel="stylesheet" href="app-nav.css">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      min-height: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f6fa;
+    }
+
+    .header {
+      background: #51227d;
+      color: white;
+      padding-bottom: 42px;
+    }
+
+    .header-top {
+      height: 62px;
+      display: flex;
+      align-items: center;
+      padding: 0 18px;
+      gap: 22px;
+    }
+
+    .header-top a {
+      color: white;
+      text-decoration: none;
+      font-size: 21px;
+    }
+
+    .header-title {
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    .heading {
+      text-align: center;
+      font-size: 25px;
+      font-weight: 800;
+      padding: 38px 20px 25px;
+    }
+
+    .charity-list {
+      max-width: 520px;
+      margin: 0 auto;
+      padding: 24px 18px;
+    }
+
+    .charity-card {
+      background: white;
+      border-radius: 15px;
+      padding: 18px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      text-decoration: none;
+      color: #32154d;
+      box-shadow: 0 2px 8px rgba(0,0,0,.10);
+    }
+
+    .charity-icon {
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      background: #51227d;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 23px;
+      flex-shrink: 0;
+    }
+
+    .charity-info {
+      flex: 1;
+    }
+
+    .charity-name {
+      font-size: 18px;
+      font-weight: 800;
+      margin-bottom: 4px;
+    }
+
+    .charity-description {
+      color: #777;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    .arrow {
+      color: #51227d;
+      font-size: 18px;
+    }
+  </style>
+</head>
+
+<body class="has-bottom-nav">
+
+  <header class="header">
+
+    <div class="header-top">
+      <a href="index.html" aria-label="Back">
+        <i class="fa-solid fa-arrow-left"></i>
+      </a>
+
+      <div class="header-title">Charity Donations</div>
+    </div>
+
+    <div class="heading">
+      Charities We Support
+    </div>
+
+  </header>
+
+  <main class="charity-list">
+
+    <a class="charity-card"
+       href="https://4louis.enthuse.com/pf/marvalouscompetitions">
+
+      <div class="charity-icon">
+        <i class="fa-solid fa-heart"></i>
+      </div>
+
+      <div class="charity-info">
+        <div class="charity-name">4Louis</div>
+        <div class="charity-description">
+          Supporting families through baby loss and bereavement care
+        </div>
+      </div>
+
+      <div class="arrow">
+        <i class="fa-solid fa-chevron-right"></i>
+      </div>
+
+    </a>
+
+  </main>
+
+  <nav class="bottom-nav">
+
+    <button class="nav-button" onclick="history.back()" aria-label="Back">
+      <i class="fa-solid fa-arrow-left"></i>
+    </button>
+
+    <a class="nav-button home" href="index.html" aria-label="Home">
+      <i class="fa-solid fa-house"></i>
+    </a>
+
+    <a class="nav-button" href="index.html#notifications" aria-label="Notifications">
+      <i class="fa-solid fa-bell"></i>
+    </a>
+
+  </nav>
+
+</body>
+</html>
