@@ -39,3 +39,7 @@
 .nav-button:active {
   background: rgba(255,255,255,.08);
 }
+
+.nav-button.active {
+  color: #d8b5ff;
+}
