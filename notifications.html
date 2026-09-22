@@ -155,5 +155,59 @@
 
   </nav>
 
+ <script>
+async function loadNotifications() {
+  const list = document.getElementById('notificationList');
+
+  try {
+    const response = await fetch(
+      'notifications.json?t=' + Date.now(),
+      { cache: 'no-store' }
+    );
+
+    const data = await response.json();
+    const notifications = data.notifications || [];
+
+    if (notifications.length === 0) {
+      list.innerHTML = `
+        <div class="empty">
+          Your Marvalous notifications will appear here.
+        </div>
+      `;
+      return;
+    }
+
+    list.innerHTML = '';
+
+    notifications.forEach(item => {
+      const notification = document.createElement('div');
+      notification.className = 'notification';
+
+      notification.innerHTML = `
+        <div class="notification-icon">
+          <i class="fa-solid fa-bell"></i>
+        </div>
+
+        <div class="notification-content">
+          <div class="notification-title">${item.title || ''}</div>
+          <div class="notification-message">${item.message || ''}</div>
+          <div class="notification-time">${item.time || ''}</div>
+        </div>
+      `;
+
+      list.appendChild(notification);
+    });
+
+  } catch (error) {
+    list.innerHTML = `
+      <div class="empty">
+        Your Marvalous notifications will appear here.
+      </div>
+    `;
+  }
+}
+
+loadNotifications();
+ </script> 
 </body>
 </html>
