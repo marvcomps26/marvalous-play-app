@@ -1,0 +1,41 @@
+/* SHARED BOTTOM NAVIGATION */
+
+.has-bottom-nav {
+  padding-bottom: 54px;
+}
+
+.bottom-nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 54px;
+  background: #51227d;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0 -1px 4px rgba(0,0,0,.15);
+}
+
+.nav-button {
+  height: 54px;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.nav-button.home {
+  color: #d8b5ff;
+}
+
+.nav-button:active {
+  background: rgba(255,255,255,.08);
+}
