@@ -505,13 +505,20 @@ socialPanel.addEventListener('touchend', function() {
 </div>
 <script>
 window.addEventListener('load', () => {
-  setTimeout(() => {
-    const splash = document.getElementById('splashScreen');
+  const splash = document.getElementById('splashScreen');
 
-    if (splash) {
-      splash.classList.add('hide');
-    }
-  }, 1800);
+  if (!splash) return;
+
+  if (sessionStorage.getItem('marvalousSplashShown')) {
+    splash.style.display = 'none';
+    return;
+  }
+
+  sessionStorage.setItem('marvalousSplashShown', 'true');
+
+  setTimeout(() => {
+    splash.classList.add('hide');
+  }, 1200);
 });
 </script>
 
