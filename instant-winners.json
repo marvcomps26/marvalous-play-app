@@ -1,13 +1,40 @@
 {
-  "updatedAt": "2026-09-24T09:22:58.586Z",
-  "count": 3,
+  "updatedAt": "2026-09-24T14:21:40.569Z",
+  "count": 6,
   "winners": [
+    {
+      "winner": "Megan Rayner won 10 Penny for the Guy Tickets!",
+      "details": [
+        "Megan Rayner won 10 Penny for the Guy Tickets!",
+        "💥 Marv’s Gunpowder Plot 💥",
+        "1 hour ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
+    },
+    {
+      "winner": "Megan Rayner won £25 Marv's Vault Cash!",
+      "details": [
+        "Megan Rayner won £25 Marv's Vault Cash!",
+        "🍂 Marv’s Autumn Vault Every Ticket Wins 🍂",
+        "1 hour ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/700/conversions/%C2%A325-INSTANT-CASH-thumb.png"
+    },
+    {
+      "winner": "Stephanie Fitzsimmons won 10 Penny for the Guy Tickets!",
+      "details": [
+        "Stephanie Fitzsimmons won 10 Penny for the Guy Tickets!",
+        "💥 Marv’s Gunpowder Plot 💥",
+        "3 hours ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
+    },
     {
       "winner": "Sarah Vicary won 5 Tickets Into Marv's Trick Competition!",
       "details": [
         "Sarah Vicary won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "2 hours ago"
+        "7 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -16,7 +43,7 @@
       "details": [
         "Helen Gill won 10 Penny for the Guy Tickets!",
         "💥 Marv’s Gunpowder Plot 💥",
-        "10 hours ago"
+        "15 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
     },
@@ -25,7 +52,7 @@
       "details": [
         "Sammy 998 won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "13 hours ago"
+        "18 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     }
