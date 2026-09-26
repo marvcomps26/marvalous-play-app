@@ -135,7 +135,27 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
   margin-bottom: 8px;
 }
 
-      
+.notification-icon {
+  position: relative;
+}
+
+.notification-badge {
+  position: absolute;
+  top: -11px;
+  right: -14px;
+  min-width: 21px;
+  height: 21px;
+  padding: 0 5px;
+  border-radius: 999px;
+  background: #e53935;
+  color: white;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 21px;
+  text-align: center;
+  display: none;
+  box-shadow: 0 1px 4px rgba(0,0,0,.25);
+}      
     .favourites {
       background: #080808;
       color: white;
@@ -496,9 +516,12 @@ socialPanel.addEventListener('touchend', function() {
   </a>
 
   <a class="menu-button" href="notifications.html">
-  <div class="icon"><i class="fa-solid fa-bell"></i></div>
+  <div class="icon notification-icon">
+    <i class="fa-solid fa-bell"></i>
+    <span id="notificationBadge" class="notification-badge"></span>
+  </div>
   Notifications
-  </a>
+</a>
 
 </div>
 
@@ -522,5 +545,50 @@ window.addEventListener('load', () => {
 });
 </script>
 
+<script>
+async function updateNotificationBadge() {
+  try {
+    const response = await fetch(
+      'notifications.json?t=' + Date.now(),
+      { cache: 'no-store' }
+    );
+
+    const data = await response.json();
+    const notifications = data.notifications || [];
+
+    const lastReadTime =
+      localStorage.getItem('marvalousLastReadNotification');
+
+    let unreadCount = notifications.length;
+
+    if (lastReadTime) {
+      unreadCount = notifications.filter(notification => {
+        if (!notification.time) return false;
+
+        return new Date(notification.time).getTime() >
+          new Date(lastReadTime).getTime();
+      }).length;
+    }
+
+    const badge = document.getElementById('notificationBadge');
+
+    if (!badge) return;
+
+    if (unreadCount > 0) {
+      badge.textContent = unreadCount > 99 ? '99+' : unreadCount;
+      badge.style.display = 'block';
+    } else {
+      badge.style.display = 'none';
+    }
+  } catch (error) {
+    console.log('Could not update notification badge');
+  }
+}
+
+updateNotificationBadge();
+
+window.addEventListener('pageshow', updateNotificationBadge);
+</script>
+  
 </body>
 </html>
