@@ -549,25 +549,30 @@ window.addEventListener('load', () => {
 async function updateNotificationBadge() {
   try {
     const response = await fetch(
-      'notifications.json?t=' + Date.now(),
+      'https://marvalous-notifications.marvalouscompetitions.workers.dev/?t=' + Date.now(),
       { cache: 'no-store' }
     );
 
     const data = await response.json();
     const notifications = data.notifications || [];
 
-    const lastReadTime =
-      localStorage.getItem('marvalousLastReadNotification');
+    const lastReadId =
+      localStorage.getItem('marvalousLastReadNotificationId');
 
-    let unreadCount = notifications.length;
+    let unreadCount = 0;
 
-    if (lastReadTime) {
-      unreadCount = notifications.filter(notification => {
-        if (!notification.time) return false;
+    if (!lastReadId) {
+      unreadCount = notifications.length;
+    } else {
+      const lastReadIndex = notifications.findIndex(
+        notification => notification.id === lastReadId
+      );
 
-        return new Date(notification.time).getTime() >
-          new Date(lastReadTime).getTime();
-      }).length;
+      if (lastReadIndex === -1) {
+        unreadCount = notifications.length;
+      } else {
+        unreadCount = lastReadIndex;
+      }
     }
 
     const badge = document.getElementById('notificationBadge');
@@ -580,6 +585,7 @@ async function updateNotificationBadge() {
     } else {
       badge.style.display = 'none';
     }
+
   } catch (error) {
     console.log('Could not update notification badge');
   }
