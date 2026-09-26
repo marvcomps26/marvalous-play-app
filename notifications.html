@@ -187,6 +187,21 @@ async function loadNotifications() {
 
     const data = await response.json();
     const notifications = data.notifications || [];
+    if (notifications.length > 0) {
+  const newestNotificationTime = notifications
+    .map(item => item.time)
+    .filter(Boolean)
+    .map(time => new Date(time).getTime())
+    .filter(time => !Number.isNaN(time))
+    .reduce((latest, time) => Math.max(latest, time), 0);
+
+  if (newestNotificationTime > 0) {
+    localStorage.setItem(
+      'marvalousLastReadNotification',
+      new Date(newestNotificationTime).toISOString()
+    );
+  }
+}
 
     if (notifications.length === 0) {
       list.innerHTML = `
