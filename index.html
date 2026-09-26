@@ -324,8 +324,8 @@ OneSignalDeferred.push(async function(OneSignal) {
 <script>
 async function updateWinnersToday() {
   try {
-  const response = await fetch(
-  'https://raw.githubusercontent.com/marvcomps26/marvalous-play-app/refs/heads/main/winner-count.json?t=' + Date.now(),
+ const response = await fetch(
+  'https://marvalous-notifications.marvalouscompetitions.workers.dev/?t=' + Date.now(),
   { cache: 'no-store' }
 );
 
