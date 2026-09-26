@@ -73,6 +73,84 @@
   background: rgba(255,255,255,.15);
 }
 
+.clear-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, .55);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  z-index: 9999;
+}
+
+.clear-modal.show {
+  display: flex;
+}
+
+.clear-modal-box {
+  width: 100%;
+  max-width: 340px;
+  background: white;
+  border-radius: 22px;
+  padding: 28px 24px 22px;
+  text-align: center;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, .3);
+}
+
+.clear-modal-icon {
+  width: 58px;
+  height: 58px;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  background: #51227d;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+}
+
+.clear-modal-title {
+  color: #32154d;
+  font-size: 21px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.clear-modal-text {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.45;
+  margin-bottom: 22px;
+}
+
+.clear-modal-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.clear-modal-actions button {
+  flex: 1;
+  height: 44px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.modal-cancel {
+  background: #f1edf5;
+  color: #51227d;
+  border: 0;
+}
+
+.modal-clear {
+  background: #51227d;
+  color: white;
+  border: 0;
+}    
+
     .notification-list {
       max-width: 520px;
       margin: 0 auto;
@@ -158,6 +236,31 @@
   </button>
 </div>
 
+  <div id="clearModal" class="clear-modal">
+  <div class="clear-modal-box">
+    <div class="clear-modal-icon">
+      <i class="fa-solid fa-bell-slash"></i>
+    </div>
+
+    <div class="clear-modal-title">
+      Clear notifications?
+    </div>
+
+    <div class="clear-modal-text">
+      This will remove all notifications from your list.
+    </div>
+
+    <div class="clear-modal-actions">
+      <button id="cancelClearButton" class="modal-cancel">
+        Cancel
+      </button>
+
+      <button id="confirmClearButton" class="modal-clear">
+        Clear all
+      </button>
+    </div>
+  </div>
+</div>
   <main id="notificationList" class="notification-list">
 
     <div class="empty">
