@@ -1,7 +1,16 @@
 {
-  "updatedAt": "2026-09-26T18:31:30.195Z",
-  "count": 5,
+  "updatedAt": "2026-09-26T18:46:13.172Z",
+  "count": 3,
   "winners": [
+    {
+      "winner": "Lynn Crowder won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "Lynn Crowder won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "13 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
     {
       "winner": "Georgia Dever won 5 Tickets Into Marv's Trick Competition!",
       "details": [
@@ -17,33 +26,6 @@
         "charlie Webb won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
         "5 hours ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
-    },
-    {
-      "winner": "charlie Webb won 10 Penny for the Guy Tickets!",
-      "details": [
-        "charlie Webb won 10 Penny for the Guy Tickets!",
-        "💥 Marv’s Gunpowder Plot 💥",
-        "5 hours ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
-    },
-    {
-      "winner": "charlie Webb won £50.00",
-      "details": [
-        "charlie Webb won £50.00",
-        "🎱 MARV’S BINGO NIGHT 🎱",
-        "5 hours ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/714/conversions/%C2%A350-INSTANT-CASH-thumb.png"
-    },
-    {
-      "winner": "Liam Pilkington won 5 Tickets Into Marv's Trick Competition!",
-      "details": [
-        "Liam Pilkington won 5 Tickets Into Marv's Trick Competition!",
-        "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "8 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     }
