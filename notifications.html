@@ -206,8 +206,18 @@ async function loadNotifications() {
   { cache: 'no-store' }
 );
 
-    const data = await response.json();
-    const notifications = data.notifications || [];
+  const data = await response.json();
+
+const clearedAt =
+  localStorage.getItem('marvalousNotificationsClearedAt');
+
+const notifications = (data.notifications || []).filter(item => {
+  if (!clearedAt) return true;
+  if (!item.time) return false;
+
+  return new Date(item.time).getTime() >
+    new Date(clearedAt).getTime();
+});
     if (notifications.length > 0 && notifications[0].id) {
   localStorage.setItem(
     'marvalousLastReadNotificationId',
