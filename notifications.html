@@ -367,16 +367,30 @@ const notifications = (data.notifications || []).filter(item => {
   }
 }
 
-document.getElementById('clearNotificationsButton').addEventListener('click', () => {
-  const confirmed = confirm('Clear all notifications?');
+const clearModal = document.getElementById('clearModal');
+const clearButton = document.getElementById('clearNotificationsButton');
+const cancelClearButton = document.getElementById('cancelClearButton');
+const confirmClearButton = document.getElementById('confirmClearButton');
 
-  if (!confirmed) return;
+clearButton.addEventListener('click', () => {
+  clearModal.classList.add('show');
+});
 
-  const notifications = document.querySelectorAll('.notification');
+cancelClearButton.addEventListener('click', () => {
+  clearModal.classList.remove('show');
+});
 
-  notifications.forEach(notification => {
-    notification.remove();
-  });
+clearModal.addEventListener('click', (event) => {
+  if (event.target === clearModal) {
+    clearModal.classList.remove('show');
+  }
+});
+
+confirmClearButton.addEventListener('click', () => {
+  localStorage.setItem(
+    'marvalousNotificationsClearedAt',
+    new Date().toISOString()
+  );
 
   document.getElementById('notificationList').innerHTML = `
     <div class="empty">
@@ -384,12 +398,11 @@ document.getElementById('clearNotificationsButton').addEventListener('click', ()
     </div>
   `;
 
-  localStorage.setItem(
-    'marvalousNotificationsClearedAt',
-    new Date().toISOString()
-  );
+  clearModal.classList.remove('show');
 });
+
 loadNotifications();
+  
  </script> 
 </body>
 </html>
