@@ -554,7 +554,16 @@ async function updateNotificationBadge() {
     );
 
     const data = await response.json();
-    const notifications = data.notifications || [];
+    const clearedAt =
+  localStorage.getItem('marvalousNotificationsClearedAt');
+
+const notifications = (data.notifications || []).filter(item => {
+  if (!clearedAt) return true;
+  if (!item.time) return false;
+
+  return new Date(item.time).getTime() >
+    new Date(clearedAt).getTime();
+});
 
     const lastReadId =
       localStorage.getItem('marvalousLastReadNotificationId');
