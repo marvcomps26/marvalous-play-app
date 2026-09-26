@@ -180,10 +180,10 @@ async function loadNotifications() {
   const list = document.getElementById('notificationList');
 
   try {
-    const response = await fetch(
-      'notifications.json?t=' + Date.now(),
-      { cache: 'no-store' }
-    );
+   const response = await fetch(
+  'https://marvalous-notifications.marvalouscompetitions.workers.dev/?t=' + Date.now(),
+  { cache: 'no-store' }
+);
 
     const data = await response.json();
     const notifications = data.notifications || [];
