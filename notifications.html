@@ -56,6 +56,23 @@
       font-weight: 800;
     }
 
+    .clear-notifications {
+  display: block;
+  margin: 14px auto 0;
+  padding: 8px 18px;
+  border: 1px solid rgba(255,255,255,.7);
+  border-radius: 20px;
+  background: transparent;
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.clear-notifications:active {
+  background: rgba(255,255,255,.15);
+}
+
     .notification-list {
       max-width: 520px;
       margin: 0 auto;
@@ -134,8 +151,12 @@
   </header>
 
   <div class="page-title">
-    Latest Updates
-  </div>
+  Latest Updates
+
+  <button id="clearNotificationsButton" class="clear-notifications">
+    Clear all
+  </button>
+</div>
 
   <main id="notificationList" class="notification-list">
 
