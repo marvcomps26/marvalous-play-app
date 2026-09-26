@@ -1,6 +1,26 @@
 {
   "notifications": [
     {
+      "title": "£1000 Tomorrow!",
+      "message": "Winner Winner chicken dinner!",
+      "time": "2026-09-26T15:47:58.000Z"
+    },
+    {
+      "title": "Somebody is winning £1000 tomorrow!",
+      "message": "winner winner chicken dinner!",
+      "time": "2026-09-26T12:32:09.000Z"
+    },
+    {
+      "title": "Somebody is winning £1000 tomorrow!",
+      "message": "winner winner chicken dinner!",
+      "time": "2026-09-26T12:18:23.000Z"
+    },
+    {
+      "title": "Somebody is winning £1000 tomorrow!",
+      "message": "test",
+      "time": "2026-09-26T11:58:34.000Z"
+    },
+    {
       "title": "Somebody is winning £1000 tomorrow!",
       "message": "winner winner chicken dinner!",
       "time": "2026-09-26T11:39:52.000Z"
@@ -21,11 +41,6 @@
       "time": "2026-09-26T11:34:35.000Z"
     },
     {
-      "title": "Somebody is winning £1000 tomorrow!",
-      "message": "Last day to grab your tickets!!",
-      "time": "2026-09-26T11:00:24.000Z"
-    },
-    {
       "title": "hey! have you checked out whats live yet?",
       "message": "Click competitions to find out!",
       "time": "2026-09-26T10:58:12.000Z"
@@ -44,201 +59,6 @@
       "title": "Liverpool v Man utd",
       "message": "Liverpool v Man utd 21-11-26\n2 Hospitality tickets\n99p a Entry",
       "time": "2026-09-24T05:51:49.000Z"
-    },
-    {
-      "title": "Liverpool v Man utd",
-      "message": "Liverpool v Man utd 21-11-26\n2 Hospitality tickets\n99p a Entry",
-      "time": "2026-09-08T16:34:25.000Z"
-    },
-    {
-      "title": "🏠 Scouse House ends TOMORROW!",
-      "message": "7p a ticket 💜 £300 end prize. Entries close tomorrow!",
-      "time": "2026-08-29T18:31:31.000Z"
-    },
-    {
-      "title": "💎 LAST MINUTE TICKETS!",
-      "message": "Jodie Oates’ Lucky Gems ends TONIGHT 👀\n💰 £2,000 end prize ⏰ Entries close 7PM 🔴 Live draw 7:10PM\nDon’t leave it too late… this could be your night! 💎",
-      "time": "2026-08-26T13:48:36.000Z"
-    },
-    {
-      "title": "🚨 LESS THAN 2 HOURS TO GO!",
-      "message": "3 competitions close at 6PM TONIGHT — then we’re LIVE at 7PM to find our winners 👀\nStill time to get those last entries in and hunt down some instant wins!\nDon’t leave it too late 💜",
-      "time": "2026-08-12T15:21:54.000Z"
-    },
-    {
-      "title": "🚨 LESS THAN 2 HOURS TO GO!",
-      "message": "3 competitions close at 6PM TONIGHT — then we’re LIVE at 7PM to find our winners 👀\nStill time to get those last entries in and hunt down some instant wins!\nDon’t leave it too late 💜",
-      "time": "2026-08-12T15:21:29.000Z"
-    },
-    {
-      "title": "Less than 6 hours to go!",
-      "message": "3 comps drawn tonight what you in?",
-      "time": "2026-08-12T11:26:03.000Z"
-    },
-    {
-      "title": "Any Silver Lovers?",
-      "message": "Nadir Silver Bar 5p a ticket gets drawn wednesday...........\nGood Luck!",
-      "time": "2026-08-08T14:07:24.000Z"
-    },
-    {
-      "title": "Apple or Android Phone?",
-      "message": "The choice is yours for 10p a ticket gets drawn this Wednesday",
-      "time": "2026-08-07T18:58:45.000Z"
-    },
-    {
-      "title": "Live Draw Tonight 7pm Facebook",
-      "message": "Stee Lee's Cha Cha Cha Ching draws tonight are you playing? 7pm facebook",
-      "time": "2026-08-05T11:13:04.000Z"
-    },
-    {
-      "title": "Live Draw Tonight 7pm Facebook",
-      "message": "Are you in tonights draw? Play now dont miss out on the chance to win £1000",
-      "time": "2026-07-26T09:59:46.000Z"
-    },
-    {
-      "title": "£1000 5p to enter",
-      "message": "Lisa What's £1000 Live Draw Tomorrow be quick! 🔥",
-      "time": "2026-07-25T16:25:12.000Z"
-    },
-    {
-      "title": "New Comp Live",
-      "message": "Marv's 5p Cashpot drop has just landed on the 🌍",
-      "time": "2026-07-18T09:16:32.000Z"
-    },
-    {
-      "title": "New comp on the site 5p a ticket ",
-      "message": "100g Silver Bullion Bar + 5x 10g Silver Bar Instant Wins",
-      "time": "2026-07-15T17:23:56.000Z"
-    },
-    {
-      "title": "🚨 3 BRAND NEW competitions are now LIVE!",
-      "message": "Tickets from just 10p. Which one will you choose? 💜",
-      "time": "2026-07-13T11:13:12.000Z"
-    },
-    {
-      "title": "New Comp Live",
-      "message": "1x 100g Silver Bar with 5x 10g Silver bars in instant wins",
-      "time": "2026-07-12T20:56:30.000Z"
-    },
-    {
-      "title": "Live draw Today",
-      "message": "Last chance to enter for £500 closes at 6pm drawn at 7pm live on facebook",
-      "time": "2026-07-12T13:48:32.000Z"
-    },
-    {
-      "title": "Are you a high roller?",
-      "message": "Guaranteed £500 tax free cash will be in someone’s bank account tomorrow night could it be you?",
-      "time": "2026-07-11T08:15:04.000Z"
-    },
-    {
-      "title": "📱 Apple or Android?",
-      "message": "🚨 New Competition LIVE!\niPhone 17 Pro Max or Samsung S26 Ultra... you decide! 📱🔥",
-      "time": "2026-07-04T09:29:08.000Z"
-    },
-    {
-      "title": "Todays Competitions Close at 6pm Draw 7pm Live on Facebook",
-      "message": "Not long to go be quick if your entering",
-      "time": "2026-06-28T13:13:13.000Z"
-    },
-    {
-      "title": "Live Draw Sunday",
-      "message": "Don't miss out this sunday we will be live drawing the competitions that are coming to a close. There is still time to get involved but fast!!!!!!",
-      "time": "2026-06-24T11:35:04.000Z"
-    },
-    {
-      "title": "Arctic Marv's Thursday Night Race Night",
-      "message": "Are You in the Ninja BBQ Comp for just 5p per entry and ready for a chance to win £20 cash in your bank tonight watch the live at 7pm in the Elite Club to see if your a winner",
-      "time": "2026-06-18T09:01:55.000Z"
-    },
-    {
-      "title": "Live Draw Sunday",
-      "message": "High Roller Comp On Sale £3.50 an Entry With 16 x £100 Instant Wins Left and a Chance to Land Th £100 End Prize Be Quick ",
-      "time": "2026-06-12T09:04:08.000Z"
-    },
-    {
-      "title": "⏰ Don't Forget Your Daily Scratch!",
-      "message": "Not played today? Don't miss out! Get scratching!",
-      "time": "2026-06-08T20:45:59.000Z"
-    },
-    {
-      "title": "🚨 Have You Played Today's Scratch Yet?",
-      "message": "Your daily scratch card is waiting... instant wins, discounts and bonus league points could be hiding underneath! 🎉\nPassword: SILVER05",
-      "time": "2026-06-05T15:19:38.000Z"
-    },
-    {
-      "title": "🚨 Daily VIP Scratch Alert!",
-      "message": "Today's code is MAYHEM03\nDon't miss your free daily play. Enter your code now and see if you're today's winner! 💜",
-      "time": "2026-06-03T14:26:41.000Z"
-    },
-    {
-      "title": "Are You a High Roller?",
-      "message": "It pays to be a high roller at Marvalous Competitions playing the high roller comp will get you entered in the elite club thursday night race",
-      "time": "2026-06-01T08:27:21.000Z"
-    },
-    {
-      "title": "Marvalous Draw Day",
-      "message": "Hi not long to wait to win some nice prizes @ 7pm today. Are you playing?",
-      "time": "2026-05-31T07:52:38.000Z"
-    },
-    {
-      "title": "EMERGENCY 📣",
-      "message": "HAS ANYBODY SEEN A BIG WHITE POLAR BEAR ANYWHERE?? 👀",
-      "time": "2026-05-30T15:44:00.000Z"
-    },
-    {
-      "title": "EMERGENCY 📣",
-      "message": "HAS ANYBODY SEEN A BIG WHITE POLAR BEAR ANYWHERE?? 👀",
-      "time": "2026-05-30T15:41:31.000Z"
-    },
-    {
-      "title": "EMERGENCY 📣",
-      "message": "HAS ANYBODY SEEN A BIG WHITE POLAR BEAR ANYWHERE?? 👀",
-      "time": "2026-05-30T15:36:42.000Z"
-    },
-    {
-      "title": "Live Draw Weekend",
-      "message": "Hi dont miss your chance to have a chance to win 1 of our 4 prizes tomorrow at 7pm",
-      "time": "2026-05-30T10:22:01.000Z"
-    },
-    {
-      "title": "Live Draw Weekend",
-      "message": "Hi dont miss your chance to have a chance to win 1 of our 4 prizes tomorrow at 7pm",
-      "time": "2026-05-30T09:41:20.000Z"
-    },
-    {
-      "title": "TODAYS SCRATCHCODE IS MARVLUCK",
-      "message": "Not played today? Don't miss out! Get scratching!",
-      "time": "2026-05-28T09:44:36.000Z"
-    },
-    {
-      "title": "MARVALOUS LIVE DRAW TONIGHT ON FACEBOOK 7PM",
-      "message": "MARVALOUS LIVE DRAW TONIGHT ON FACEBOOK 7PM",
-      "time": "2026-04-26T14:55:01.000Z"
-    },
-    {
-      "title": "NEW GAME",
-      "message": "🎁 MYSTERY BOX GAME?\nWe’ve sealed something inside this box… 👀\nWe’re thinking of running a simple game where one person wins whatever is inside.\nInterested? Head to our facebook!\nComment PLAY if you're in.",
-      "time": "2026-04-21T09:59:31.000Z"
-    },
-    {
-      "title": "🥊 £300 Marvalous Knockout",
-      "message": "100 numbers. £5 each.\nWhen they sell out we go LIVE for the draw! 🔥\nWill your number survive?",
-      "time": "2026-04-06T19:20:36.000Z"
-    },
-    {
-      "title": "⏰ 25 MINUTES TO GO",
-      "message": "Last chance to grab tickets for the £1000 Scratch the Frost draw!",
-      "time": "2026-03-29T16:36:19.000Z"
-    },
-    {
-      "title": "🚨 Live Draw Weekend🚨",
-      "message": "Hello 🖐 Hope You Have a Marvalous Friday! check our amazing offer we have for our Elite Club Members",
-      "time": "2026-03-27T08:46:43.000Z"
-    },
-    {
-      "title": "🚨 Live Draw Weekend🚨",
-      "message": "Hello 🖐 Hope You Have a Marvalous Friday! check our amazing offer we have for our Elite Club Members",
-      "time": "2026-03-27T08:35:51.000Z"
     }
   ]
 }
