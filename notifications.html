@@ -254,6 +254,28 @@ async function loadNotifications() {
   }
 }
 
+document.getElementById('clearNotificationsButton').addEventListener('click', () => {
+  const confirmed = confirm('Clear all notifications?');
+
+  if (!confirmed) return;
+
+  const notifications = document.querySelectorAll('.notification');
+
+  notifications.forEach(notification => {
+    notification.remove();
+  });
+
+  document.getElementById('notificationList').innerHTML = `
+    <div class="empty">
+      Your Marvalous notifications will appear here.
+    </div>
+  `;
+
+  localStorage.setItem(
+    'marvalousNotificationsClearedAt',
+    new Date().toISOString()
+  );
+});
 loadNotifications();
  </script> 
 </body>
