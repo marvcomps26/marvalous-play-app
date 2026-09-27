@@ -1,13 +1,22 @@
 {
-  "updatedAt": "2026-09-27T20:01:35.519Z",
-  "count": 4,
+  "updatedAt": "2026-09-27T20:16:23.950Z",
+  "count": 5,
   "winners": [
+    {
+      "winner": "Summer Slade won 10 Penny for the Guy Tickets!",
+      "details": [
+        "Summer Slade won 10 Penny for the Guy Tickets!",
+        "💥 Marv’s Gunpowder Plot 💥",
+        "1 minute ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
+    },
     {
       "winner": "Catherine Creaser won 5 Tickets Into Marv's Trick Competition!",
       "details": [
         "Catherine Creaser won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "1 hour ago"
+        "2 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
