@@ -1,13 +1,22 @@
 {
-  "updatedAt": "2026-09-28T23:31:29.461Z",
-  "count": 2,
+  "updatedAt": "2026-09-28T23:46:20.453Z",
+  "count": 3,
   "winners": [
+    {
+      "winner": "Alishia Jamil won 10 Penny for the Guy Tickets!",
+      "details": [
+        "Alishia Jamil won 10 Penny for the Guy Tickets!",
+        "💥 Marv’s Gunpowder Plot 💥",
+        "6 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
+    },
     {
       "winner": "Alishia Jamil won 5 Tickets Into Marv's Trick Competition!",
       "details": [
         "Alishia Jamil won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "17 seconds ago"
+        "15 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -16,7 +25,7 @@
       "details": [
         "Catherine Feeney Catherine Feeney won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "55 minutes ago"
+        "1 hour ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     }
