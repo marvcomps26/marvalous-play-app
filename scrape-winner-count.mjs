@@ -22,7 +22,8 @@ try {
     timeout: 60000
   });
 
-  await page.waitForTimeout(5000);
+  // Give the live winner counter time to load/update.
+  await page.waitForTimeout(10000);
 
   const pageTitle = await page.title();
   const bodyText = await page.locator("body").innerText();
@@ -34,25 +35,44 @@ try {
     throw new Error("Website returned the Access Blocked page.");
   }
 
-  const text = bodyText
-    .replace(/\s+/g, " ")
-    .trim();
+  const lines = bodyText
+    .split("\n")
+    .map(line => line.trim())
+    .filter(Boolean);
 
-  const match =
-    text.match(
-      /Instant Winners[\s\S]*?Today(?:'|’)?s Count[\s\S]*?(\d+)/i
-    ) ||
-    text.match(
-      /Today(?:'|’)?s Count[\s\S]*?(\d+)/i
-    );
+  console.log("Looking for Today's Count...");
 
-  if (!match) {
+  let todaysWinnerCount = null;
+
+  for (let i = 0; i < lines.length; i++) {
+    if (/Today(?:'|’)?s Count/i.test(lines[i])) {
+      console.log("Found heading:", lines[i]);
+
+      // The actual counter should appear immediately after the heading.
+      for (
+        let j = i + 1;
+        j < Math.min(i + 6, lines.length);
+        j++
+      ) {
+        console.log("Checking:", lines[j]);
+
+        if (/^\d+$/.test(lines[j])) {
+          todaysWinnerCount = Number(lines[j]);
+          break;
+        }
+      }
+    }
+
+    if (todaysWinnerCount !== null) {
+      break;
+    }
+  }
+
+  if (todaysWinnerCount === null) {
     throw new Error(
       "Could not find today's instant winner count."
     );
   }
-
-  const todaysWinnerCount = Number(match[1]);
 
   const output = {
     updatedAt: new Date().toISOString(),
