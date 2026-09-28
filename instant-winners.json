@@ -1,13 +1,22 @@
 {
-  "updatedAt": "2026-09-28T19:46:18.769Z",
-  "count": 3,
+  "updatedAt": "2026-09-28T20:01:44.149Z",
+  "count": 4,
   "winners": [
+    {
+      "winner": "Sherrie Hadley won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "Sherrie Hadley won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "6 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
     {
       "winner": "Jodie Dowler won 5 Tickets Into Marv's Trick Competition!",
       "details": [
         "Jodie Dowler won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "25 minutes ago"
+        "41 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -16,7 +25,7 @@
       "details": [
         "Jodie Dowler won £50 Cash Treat!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "35 minutes ago"
+        "51 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/676/conversions/01M1NZCKNAYMTZN89DDMHJXBDQ-thumb.png"
     },
@@ -25,7 +34,7 @@
       "details": [
         "Charlotte Anscombe won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "56 minutes ago"
+        "1 hour ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     }
