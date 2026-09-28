@@ -47,5 +47,17 @@ jobs:
 
           git commit -m "Update instant winners"
 
-          git pull --rebase origin main
-          git push origin main
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+
+            if git push origin HEAD:main; then
+              echo "Instant winners updated successfully"
+              exit 0
+            fi
+
+            echo "Push collided with another update. Retrying..."
+            sleep 5
+          done
+
+          echo "Could not push after 5 attempts"
+          exit 1
