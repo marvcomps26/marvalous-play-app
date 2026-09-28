@@ -1,13 +1,31 @@
 {
-  "updatedAt": "2026-09-28T00:01:41.538Z",
-  "count": 6,
+  "updatedAt": "2026-09-28T00:16:49.579Z",
+  "count": 7,
   "winners": [
+    {
+      "winner": "robyn Bools won 10 Penny for the Guy Tickets!",
+      "details": [
+        "robyn Bools won 10 Penny for the Guy Tickets!",
+        "💥 Marv’s Gunpowder Plot 💥",
+        "14 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
+    },
+    {
+      "winner": "robyn Bools won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "robyn Bools won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "14 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
     {
       "winner": "Emily Layton won 5 Tickets Into Marv's Trick Competition!",
       "details": [
         "Emily Layton won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "2 minutes ago"
+        "17 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -16,7 +34,7 @@
       "details": [
         "Summer Slade won 10 Penny for the Guy Tickets!",
         "💥 Marv’s Gunpowder Plot 💥",
-        "3 hours ago"
+        "4 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
     },
@@ -25,7 +43,7 @@
       "details": [
         "Catherine Creaser won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "5 hours ago"
+        "6 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -46,15 +64,6 @@
         "7 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
-    },
-    {
-      "winner": "Davina Birch won £100 Cash Treat!",
-      "details": [
-        "Davina Birch won £100 Cash Treat!",
-        "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "7 hours ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/675/conversions/01M1NZC860D9EBWZP9JWPKY4XA-thumb.png"
     }
   ]
 }
