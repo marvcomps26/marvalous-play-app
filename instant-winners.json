@@ -1,13 +1,31 @@
 {
-  "updatedAt": "2026-09-29T12:31:32.451Z",
-  "count": 5,
+  "updatedAt": "2026-09-29T12:46:24.418Z",
+  "count": 7,
   "winners": [
+    {
+      "winner": "Amy Hardman won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "Amy Hardman won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "4 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
+    {
+      "winner": "Mandy Goodwin won 10 Penny for the Guy Tickets!",
+      "details": [
+        "Mandy Goodwin won 10 Penny for the Guy Tickets!",
+        "💥 Marv’s Gunpowder Plot 💥",
+        "11 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
+    },
     {
       "winner": "Leevi Harris won 5 Tickets Into Marv's Trick Competition!",
       "details": [
         "Leevi Harris won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "3 hours ago"
+        "4 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -25,7 +43,7 @@
       "details": [
         "Sophie Kilbane won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "9 hours ago"
+        "10 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -34,7 +52,7 @@
       "details": [
         "Alishia Jamil won 10 Penny for the Guy Tickets!",
         "💥 Marv’s Gunpowder Plot 💥",
-        "12 hours ago"
+        "13 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
     },
