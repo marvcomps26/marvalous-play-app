@@ -1,13 +1,31 @@
 {
-  "updatedAt": "2026-09-29T15:01:45.772Z",
-  "count": 7,
+  "updatedAt": "2026-09-29T15:16:15.040Z",
+  "count": 4,
   "winners": [
+    {
+      "winner": "Gemma Sunderland won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "Gemma Sunderland won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "5 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
+    {
+      "winner": "Kerrie Thomas won £20 CASH!",
+      "details": [
+        "Kerrie Thomas won £20 CASH!",
+        "🔻 Aimee's Prize Plinko 🔻",
+        "14 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/654/conversions/%C2%A320-INSTANT-CASH-thumb.png"
+    },
     {
       "winner": "Denise Bates won £10.00",
       "details": [
         "Denise Bates won £10.00",
         "🎈 Jason The Truckboy & Mrs Moo Balloon Pop🎈",
-        "18 minutes ago"
+        "33 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/753/conversions/Untitled-design---2026-09-29T124248.086-thumb.png"
     },
@@ -16,54 +34,9 @@
       "details": [
         "Eleanor Paton won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "41 minutes ago"
+        "56 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
-    },
-    {
-      "winner": "Nicola Liles won £20.00",
-      "details": [
-        "Nicola Liles won £20.00",
-        "🎈 Jason The Truckboy & Mrs Moo Balloon Pop🎈",
-        "1 hour ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/752/conversions/Untitled-design---2026-09-29T124342.285-thumb.png"
-    },
-    {
-      "winner": "Andrea Bell won 5 Tickets Into Marv's Trick Competition!",
-      "details": [
-        "Andrea Bell won 5 Tickets Into Marv's Trick Competition!",
-        "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "1 hour ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
-    },
-    {
-      "winner": "Joanne Bearman won £10.00",
-      "details": [
-        "Joanne Bearman won £10.00",
-        "🎈 Jason The Truckboy & Mrs Moo Balloon Pop🎈",
-        "1 hour ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/753/conversions/Untitled-design---2026-09-29T124248.086-thumb.png"
-    },
-    {
-      "winner": "SANDRA Bennett won £10.00",
-      "details": [
-        "SANDRA Bennett won £10.00",
-        "🎈 Jason The Truckboy & Mrs Moo Balloon Pop🎈",
-        "2 hours ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/753/conversions/Untitled-design---2026-09-29T124248.086-thumb.png"
-    },
-    {
-      "winner": "Amy Turner won £10.00",
-      "details": [
-        "Amy Turner won £10.00",
-        "🎈 Jason The Truckboy & Mrs Moo Balloon Pop🎈",
-        "2 hours ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/753/conversions/Untitled-design---2026-09-29T124248.086-thumb.png"
     }
   ]
 }
