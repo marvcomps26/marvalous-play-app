@@ -1,13 +1,31 @@
 {
-  "updatedAt": "2026-09-29T12:46:24.418Z",
-  "count": 7,
+  "updatedAt": "2026-09-29T13:01:48.142Z",
+  "count": 8,
   "winners": [
+    {
+      "winner": "SANDRA Bennett won £10.00",
+      "details": [
+        "SANDRA Bennett won £10.00",
+        "🎈 Jason The Truckboy & Mrs Moo Balloon Pop🎈",
+        "4 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/753/conversions/Untitled-design---2026-09-29T124248.086-thumb.png"
+    },
+    {
+      "winner": "Amy Turner won £10.00",
+      "details": [
+        "Amy Turner won £10.00",
+        "🎈 Jason The Truckboy & Mrs Moo Balloon Pop🎈",
+        "14 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/753/conversions/Untitled-design---2026-09-29T124248.086-thumb.png"
+    },
     {
       "winner": "Amy Hardman won 5 Tickets Into Marv's Trick Competition!",
       "details": [
         "Amy Hardman won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "4 minutes ago"
+        "20 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -16,7 +34,7 @@
       "details": [
         "Mandy Goodwin won 10 Penny for the Guy Tickets!",
         "💥 Marv’s Gunpowder Plot 💥",
-        "11 minutes ago"
+        "27 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
     },
@@ -55,15 +73,6 @@
         "13 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
-    },
-    {
-      "winner": "Alishia Jamil won 5 Tickets Into Marv's Trick Competition!",
-      "details": [
-        "Alishia Jamil won 5 Tickets Into Marv's Trick Competition!",
-        "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "13 hours ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     }
   ]
 }
