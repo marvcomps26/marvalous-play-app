@@ -1,13 +1,31 @@
 {
-  "updatedAt": "2026-09-29T19:01:40.981Z",
-  "count": 2,
+  "updatedAt": "2026-09-29T19:16:15.247Z",
+  "count": 4,
   "winners": [
+    {
+      "winner": "Jessica Kyle won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "Jessica Kyle won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "10 seconds ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
+    {
+      "winner": "George-Christopher brooks Tompson won £20.00",
+      "details": [
+        "George-Christopher brooks Tompson won £20.00",
+        "🎈 Jason The Truckboy & Mrs Moo Balloon Pop🎈",
+        "55 seconds ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/752/conversions/Untitled-design---2026-09-29T124342.285-thumb.png"
+    },
     {
       "winner": "Eleanor Paton won 10 Penny for the Guy Tickets!",
       "details": [
         "Eleanor Paton won 10 Penny for the Guy Tickets!",
         "💥 Marv’s Gunpowder Plot 💥",
-        "10 minutes ago"
+        "24 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
     },
@@ -16,7 +34,7 @@
       "details": [
         "Chloe Painter won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "10 minutes ago"
+        "24 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     }
