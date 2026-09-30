@@ -1,13 +1,31 @@
 {
-  "updatedAt": "2026-09-30T16:01:42.402Z",
-  "count": 7,
+  "updatedAt": "2026-09-30T16:16:16.056Z",
+  "count": 6,
   "winners": [
+    {
+      "winner": "Mary Evans won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "Mary Evans won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "2 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
+    {
+      "winner": "Kayleigh Jevons won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "Kayleigh Jevons won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "5 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
     {
       "winner": "Mel Watson won £75.00",
       "details": [
         "Mel Watson won £75.00",
         "🎈 Jason The Truckboy & Mrs Moo Balloon Pop🎈",
-        "36 minutes ago"
+        "50 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/749/conversions/Untitled-design---2026-09-29T123951.645-thumb.png"
     },
@@ -16,7 +34,7 @@
       "details": [
         "Mel Watson won £10.00",
         "🎈 Jason The Truckboy & Mrs Moo Balloon Pop🎈",
-        "36 minutes ago"
+        "50 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/753/conversions/Untitled-design---2026-09-29T124248.086-thumb.png"
     },
@@ -35,33 +53,6 @@
         "Lucy Lewis won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
         "6 hours ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
-    },
-    {
-      "winner": "Lucy Lewis won 10 Penny for the Guy Tickets!",
-      "details": [
-        "Lucy Lewis won 10 Penny for the Guy Tickets!",
-        "💥 Marv’s Gunpowder Plot 💥",
-        "6 hours ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
-    },
-    {
-      "winner": "Carina Cameron won 5 Tickets Into Marv's Trick Competition!",
-      "details": [
-        "Carina Cameron won 5 Tickets Into Marv's Trick Competition!",
-        "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "6 hours ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
-    },
-    {
-      "winner": "Alisha Allen won 5 Tickets Into Marv's Trick Competition!",
-      "details": [
-        "Alisha Allen won 5 Tickets Into Marv's Trick Competition!",
-        "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "17 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     }
