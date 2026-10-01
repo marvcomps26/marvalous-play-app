@@ -1,13 +1,22 @@
 {
-  "updatedAt": "2026-10-01T17:31:37.254Z",
+  "updatedAt": "2026-10-01T17:47:10.044Z",
   "count": 5,
   "winners": [
+    {
+      "winner": "Linda Hudson won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "Linda Hudson won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "1 minute ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
     {
       "winner": "Natasha Deery won 10 Penny for the Guy Tickets!",
       "details": [
         "Natasha Deery won 10 Penny for the Guy Tickets!",
         "💥 Marv’s Gunpowder Plot 💥",
-        "41 minutes ago"
+        "57 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
     },
@@ -25,7 +34,7 @@
       "details": [
         "Carla Mcghee won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "6 hours ago"
+        "7 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -37,15 +46,6 @@
         "7 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
-    },
-    {
-      "winner": "Aimee G won 10 Penny for the Guy Tickets!",
-      "details": [
-        "Aimee G won 10 Penny for the Guy Tickets!",
-        "💥 Marv’s Gunpowder Plot 💥",
-        "7 hours ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
     }
   ]
 }
