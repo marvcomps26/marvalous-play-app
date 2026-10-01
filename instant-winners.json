@@ -1,13 +1,31 @@
 {
-  "updatedAt": "2026-10-01T18:21:14.383Z",
-  "count": 5,
+  "updatedAt": "2026-10-01T18:37:57.340Z",
+  "count": 7,
   "winners": [
+    {
+      "winner": "Frank Moody won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "Frank Moody won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "6 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
+    {
+      "winner": "FIONA BIDGOOD won 10 Penny for the Guy Tickets!",
+      "details": [
+        "FIONA BIDGOOD won 10 Penny for the Guy Tickets!",
+        "💥 Marv’s Gunpowder Plot 💥",
+        "11 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
+    },
     {
       "winner": "Linda Hudson won 5 Tickets Into Marv's Trick Competition!",
       "details": [
         "Linda Hudson won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "35 minutes ago"
+        "52 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
