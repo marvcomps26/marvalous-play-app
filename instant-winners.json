@@ -1,13 +1,22 @@
 {
-  "updatedAt": "2026-10-01T06:31:39.556Z",
-  "count": 6,
+  "updatedAt": "2026-10-01T06:46:24.951Z",
+  "count": 7,
   "winners": [
+    {
+      "winner": "Eleanor Paton won 10 Penny for the Guy Tickets!",
+      "details": [
+        "Eleanor Paton won 10 Penny for the Guy Tickets!",
+        "💥 Marv’s Gunpowder Plot 💥",
+        "54 seconds ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
+    },
     {
       "winner": "Marie Mcgurk won 5 Tickets Into Marv's Trick Competition!",
       "details": [
         "Marie Mcgurk won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "7 hours ago"
+        "8 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -16,7 +25,7 @@
       "details": [
         "Jodie Dowler won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "10 hours ago"
+        "11 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
