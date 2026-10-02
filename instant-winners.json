@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-02T05:16:13.866Z",
+  "updatedAt": "2026-10-02T05:31:27.831Z",
   "count": 5,
   "winners": [
     {
-      "winner": "Nicola Dunn won 10 Penny for the Guy Tickets!",
+      "winner": "Carla Mcghee won 5 Tickets Into Marv's Trick Competition!",
       "details": [
-        "Nicola Dunn won 10 Penny for the Guy Tickets!",
-        "💥 Marv’s Gunpowder Plot 💥",
-        "9 hours ago"
+        "Carla Mcghee won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "48 seconds ago"
       ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
     {
       "winner": "Nicola Dunn won 5 Tickets Into Marv's Trick Competition!",
@@ -21,11 +21,20 @@
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
     {
+      "winner": "Nicola Dunn won 10 Penny for the Guy Tickets!",
+      "details": [
+        "Nicola Dunn won 10 Penny for the Guy Tickets!",
+        "💥 Marv’s Gunpowder Plot 💥",
+        "9 hours ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
+    },
+    {
       "winner": "Lauren Dell won 10 Penny for the Guy Tickets!",
       "details": [
         "Lauren Dell won 10 Penny for the Guy Tickets!",
         "💥 Marv’s Gunpowder Plot 💥",
-        "9 hours ago"
+        "10 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
     },
@@ -37,15 +46,6 @@
         "10 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
-    },
-    {
-      "winner": "FIONA BIDGOOD won 10 Penny for the Guy Tickets!",
-      "details": [
-        "FIONA BIDGOOD won 10 Penny for the Guy Tickets!",
-        "💥 Marv’s Gunpowder Plot 💥",
-        "10 hours ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
     }
   ]
 }
