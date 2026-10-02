@@ -1,13 +1,22 @@
 {
-  "updatedAt": "2026-10-02T13:46:14.035Z",
-  "count": 6,
+  "updatedAt": "2026-10-02T14:01:43.102Z",
+  "count": 4,
   "winners": [
+    {
+      "winner": "Amy Dunn won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "Amy Dunn won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "5 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
     {
       "winner": "Daniel Titley won £20.00",
       "details": [
         "Daniel Titley won £20.00",
         "🎈 Jason The Truckboy & Mrs Moo Balloon Pop🎈",
-        "3 hours ago"
+        "4 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/752/conversions/Untitled-design---2026-09-29T124342.285-thumb.png"
     },
@@ -25,34 +34,7 @@
       "details": [
         "Nicola Dunn won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "17 hours ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
-    },
-    {
-      "winner": "Nicola Dunn won 10 Penny for the Guy Tickets!",
-      "details": [
-        "Nicola Dunn won 10 Penny for the Guy Tickets!",
-        "💥 Marv’s Gunpowder Plot 💥",
-        "17 hours ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
-    },
-    {
-      "winner": "Lauren Dell won 10 Penny for the Guy Tickets!",
-      "details": [
-        "Lauren Dell won 10 Penny for the Guy Tickets!",
-        "💥 Marv’s Gunpowder Plot 💥",
         "18 hours ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
-    },
-    {
-      "winner": "Frank Moody won 5 Tickets Into Marv's Trick Competition!",
-      "details": [
-        "Frank Moody won 5 Tickets Into Marv's Trick Competition!",
-        "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "19 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     }
