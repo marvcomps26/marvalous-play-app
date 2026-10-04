@@ -1,22 +1,31 @@
 {
-  "updatedAt": "2026-10-04T14:16:14.730Z",
-  "count": 2,
+  "updatedAt": "2026-10-04T14:31:33.122Z",
+  "count": 3,
   "winners": [
     {
-      "winner": "Alison Stubbs won 5 Tickets Into Marv's Trick Competition!",
+      "winner": "Kerry Poynter won 5 Tickets Into Marv's Trick Competition!",
       "details": [
-        "Alison Stubbs won 5 Tickets Into Marv's Trick Competition!",
+        "Kerry Poynter won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "16 seconds ago"
+        "9 seconds ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
     {
-      "winner": "Elaine Burke won 5 Tickets Into Marv's Trick Competition!",
+      "winner": "Claire Broderick won 5 Tickets Into Marv's Trick Competition!",
       "details": [
-        "Elaine Burke won 5 Tickets Into Marv's Trick Competition!",
+        "Claire Broderick won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "35 seconds ago"
+        "10 seconds ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
+    {
+      "winner": "Leanne Spurr won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "Leanne Spurr won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "42 seconds ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     }
