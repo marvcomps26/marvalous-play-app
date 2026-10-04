@@ -1,22 +1,40 @@
 {
-  "updatedAt": "2026-10-04T16:31:36.805Z",
-  "count": 2,
+  "updatedAt": "2026-10-04T16:46:15.499Z",
+  "count": 4,
   "winners": [
+    {
+      "winner": "kirstie Walls won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "kirstie Walls won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "36 seconds ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
+    {
+      "winner": "Olivia Boylin won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "Olivia Boylin won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "5 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
+    {
+      "winner": "Olivia Boylin won 10 Penny for the Guy Tickets!",
+      "details": [
+        "Olivia Boylin won 10 Penny for the Guy Tickets!",
+        "💥 Marv’s Gunpowder Plot 💥",
+        "5 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
+    },
     {
       "winner": "Aasha Austen won 5 Tickets Into Marv's Trick Competition!",
       "details": [
         "Aasha Austen won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "1 minute ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
-    },
-    {
-      "winner": "samantha Thurlow won 5 Tickets Into Marv's Trick Competition!",
-      "details": [
-        "samantha Thurlow won 5 Tickets Into Marv's Trick Competition!",
-        "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "4 minutes ago"
+        "15 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     }
