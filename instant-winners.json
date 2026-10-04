@@ -1,13 +1,22 @@
 {
-  "updatedAt": "2026-10-04T16:46:15.499Z",
+  "updatedAt": "2026-10-04T17:01:40.127Z",
   "count": 4,
   "winners": [
+    {
+      "winner": "Danielle Lewis won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "Danielle Lewis won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "5 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
     {
       "winner": "kirstie Walls won 5 Tickets Into Marv's Trick Competition!",
       "details": [
         "kirstie Walls won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "36 seconds ago"
+        "16 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -16,7 +25,7 @@
       "details": [
         "Olivia Boylin won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "5 minutes ago"
+        "21 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -25,18 +34,9 @@
       "details": [
         "Olivia Boylin won 10 Penny for the Guy Tickets!",
         "💥 Marv’s Gunpowder Plot 💥",
-        "5 minutes ago"
+        "21 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
-    },
-    {
-      "winner": "Aasha Austen won 5 Tickets Into Marv's Trick Competition!",
-      "details": [
-        "Aasha Austen won 5 Tickets Into Marv's Trick Competition!",
-        "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "15 minutes ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     }
   ]
 }
