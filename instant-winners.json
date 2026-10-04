@@ -1,13 +1,22 @@
 {
-  "updatedAt": "2026-10-04T20:16:19.965Z",
-  "count": 2,
+  "updatedAt": "2026-10-04T20:31:40.905Z",
+  "count": 3,
   "winners": [
+    {
+      "winner": "Jennifer Oliver won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "Jennifer Oliver won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "14 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
     {
       "winner": "Abbie Williams Abbie Williams won 5 Tickets Into Marv's Trick Competition!",
       "details": [
         "Abbie Williams Abbie Williams won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "15 minutes ago"
+        "30 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -16,7 +25,7 @@
       "details": [
         "Stephanie Cooksey won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "58 minutes ago"
+        "1 hour ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     }
