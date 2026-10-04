@@ -1,13 +1,22 @@
 {
-  "updatedAt": "2026-10-04T10:46:20.442Z",
-  "count": 5,
+  "updatedAt": "2026-10-04T11:01:44.085Z",
+  "count": 3,
   "winners": [
+    {
+      "winner": "Katie Baker won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "Katie Baker won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "8 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
     {
       "winner": "Kim Hughes won 5 Tickets Into Marv's Trick Competition!",
       "details": [
         "Kim Hughes won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "36 minutes ago"
+        "52 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -16,36 +25,9 @@
       "details": [
         "Jodie Dowler won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "1 hour ago"
+        "2 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
-    },
-    {
-      "winner": "Chloe Connolly won 5 Tickets Into Marv's Trick Competition!",
-      "details": [
-        "Chloe Connolly won 5 Tickets Into Marv's Trick Competition!",
-        "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "9 hours ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
-    },
-    {
-      "winner": "Chloe Connolly won £20.00",
-      "details": [
-        "Chloe Connolly won £20.00",
-        "🎱 MARV’S BINGO NIGHT 🎱",
-        "9 hours ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/715/conversions/%C2%A320-INSTANT-CASH-thumb.png"
-    },
-    {
-      "winner": "Chloe Connolly won 10 Penny for the Guy Tickets!",
-      "details": [
-        "Chloe Connolly won 10 Penny for the Guy Tickets!",
-        "💥 Marv’s Gunpowder Plot 💥",
-        "9 hours ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
     }
   ]
 }
