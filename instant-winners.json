@@ -1,13 +1,22 @@
 {
-  "updatedAt": "2026-10-05T19:46:51.410Z",
-  "count": 3,
+  "updatedAt": "2026-10-05T20:27:12.160Z",
+  "count": 4,
   "winners": [
+    {
+      "winner": "Samantha Jones won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "Samantha Jones won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "24 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
     {
       "winner": "Samantha Jones won £20 MUMMY'S TREAT CASH!",
       "details": [
         "Samantha Jones won £20 MUMMY'S TREAT CASH!",
         "💎 Chloe’s Lucky Gems 💎",
-        "10 minutes ago"
+        "51 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/774/conversions/Untitled-design---2026-10-05T120055.068-thumb.png"
     },
@@ -16,7 +25,7 @@
       "details": [
         "Carol Harper won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "19 minutes ago"
+        "59 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -25,7 +34,7 @@
       "details": [
         "Lucyanne Rogers won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "47 minutes ago"
+        "1 hour ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     }
