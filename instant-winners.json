@@ -1,13 +1,22 @@
 {
-  "updatedAt": "2026-10-05T13:31:46.701Z",
-  "count": 2,
+  "updatedAt": "2026-10-05T13:46:21.251Z",
+  "count": 3,
   "winners": [
+    {
+      "winner": "Catherine Creaser won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "Catherine Creaser won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "10 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
     {
       "winner": "Dawn Craig won 5 Tickets Into Marv's Trick Competition!",
       "details": [
         "Dawn Craig won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "33 minutes ago"
+        "48 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -16,7 +25,7 @@
       "details": [
         "Meghan Gibson won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "37 minutes ago"
+        "52 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     }
