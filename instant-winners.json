@@ -1,22 +1,31 @@
 {
-  "updatedAt": "2026-10-06T20:46:23.226Z",
-  "count": 2,
+  "updatedAt": "2026-10-06T21:01:40.071Z",
+  "count": 3,
   "winners": [
+    {
+      "winner": "Carolanne Round won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "Carolanne Round won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "10 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
+    {
+      "winner": "Carolanne Round won 10 Penny for the Guy Tickets!",
+      "details": [
+        "Carolanne Round won 10 Penny for the Guy Tickets!",
+        "💥 Marv’s Gunpowder Plot 💥",
+        "10 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
+    },
     {
       "winner": "Zoe D’Arville won 5 Tickets Into Marv's Trick Competition!",
       "details": [
         "Zoe D’Arville won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "44 minutes ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
-    },
-    {
-      "winner": "Leah Dooley won 5 Tickets Into Marv's Trick Competition!",
-      "details": [
-        "Leah Dooley won 5 Tickets Into Marv's Trick Competition!",
-        "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "4 hours ago"
+        "59 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     }
