@@ -1,7 +1,16 @@
 {
-  "updatedAt": "2026-10-06T14:01:59.634Z",
-  "count": 4,
+  "updatedAt": "2026-10-06T14:16:24.963Z",
+  "count": 3,
   "winners": [
+    {
+      "winner": "Leanne Shaw won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "Leanne Shaw won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "1 minute ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
     {
       "winner": "Lauren Dell won 5 Tickets Into Marv's Trick Competition!",
       "details": [
@@ -19,24 +28,6 @@
         "1 hour ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
-    },
-    {
-      "winner": "Vicky Jones won 5 Tickets Into Marv's Trick Competition!",
-      "details": [
-        "Vicky Jones won 5 Tickets Into Marv's Trick Competition!",
-        "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "4 hours ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
-    },
-    {
-      "winner": "Vicky Jones won 10 Penny for the Guy Tickets!",
-      "details": [
-        "Vicky Jones won 10 Penny for the Guy Tickets!",
-        "💥 Marv’s Gunpowder Plot 💥",
-        "5 hours ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
     }
   ]
 }
