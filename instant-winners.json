@@ -1,13 +1,22 @@
 {
-  "updatedAt": "2026-10-07T18:16:22.228Z",
-  "count": 5,
+  "updatedAt": "2026-10-07T18:47:26.370Z",
+  "count": 6,
   "winners": [
+    {
+      "winner": "Emma Chapman won £100.00",
+      "details": [
+        "Emma Chapman won £100.00",
+        "🎱 MARV’S BINGO NIGHT 🎱",
+        "13 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/713/conversions/%C2%A3100-INSTANT-CASH-thumb.png"
+    },
     {
       "winner": "Carla Mcghee won 5 Tickets Into Marv's Trick Competition!",
       "details": [
         "Carla Mcghee won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "42 seconds ago"
+        "29 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -16,7 +25,7 @@
       "details": [
         "Louise Ellis won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "4 hours ago"
+        "5 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -25,7 +34,7 @@
       "details": [
         "Carina Cameron won 10 Penny for the Guy Tickets!",
         "💥 Marv’s Gunpowder Plot 💥",
-        "5 hours ago"
+        "6 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
     },
@@ -43,7 +52,7 @@
       "details": [
         "Sarah Martin won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "9 hours ago"
+        "10 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     }
