@@ -1,13 +1,31 @@
 {
-  "updatedAt": "2026-10-08T10:46:18.829Z",
-  "count": 2,
+  "updatedAt": "2026-10-08T11:01:35.878Z",
+  "count": 4,
   "winners": [
+    {
+      "winner": "Claire Parry won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "Claire Parry won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "1 minute ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
+    {
+      "winner": "miss c calvert miss c calvert won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "miss c calvert miss c calvert won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "12 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
     {
       "winner": "Natasha Batley won 5 Tickets Into Marv's Trick Competition!",
       "details": [
         "Natasha Batley won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "5 minutes ago"
+        "20 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -16,7 +34,7 @@
       "details": [
         "Kirstie Gammon won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "5 minutes ago"
+        "21 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     }
