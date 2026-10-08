@@ -1,13 +1,22 @@
 {
-  "updatedAt": "2026-10-08T14:16:09.317Z",
-  "count": 1,
+  "updatedAt": "2026-10-08T14:31:26.716Z",
+  "count": 2,
   "winners": [
+    {
+      "winner": "William Lunt won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "William Lunt won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "2 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
     {
       "winner": "Kayleigh Mccauley won 5 Tickets Into Marv's Trick Competition!",
       "details": [
         "Kayleigh Mccauley won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "12 minutes ago"
+        "27 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     }
