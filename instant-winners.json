@@ -1,13 +1,22 @@
 {
-  "updatedAt": "2026-10-08T10:16:23.242Z",
-  "count": 1,
+  "updatedAt": "2026-10-08T10:31:20.051Z",
+  "count": 2,
   "winners": [
+    {
+      "winner": "Kirstie Gammon won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "Kirstie Gammon won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "2 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
     {
       "winner": "Paige Johnson Johnson won 5 Tickets Into Marv's Trick Competition!",
       "details": [
         "Paige Johnson Johnson won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "5 hours ago"
+        "6 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     }
