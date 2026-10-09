@@ -1,13 +1,22 @@
 {
-  "updatedAt": "2026-10-09T09:46:09.233Z",
-  "count": 4,
+  "updatedAt": "2026-10-09T10:01:34.777Z",
+  "count": 5,
   "winners": [
+    {
+      "winner": "Jessica Kyle won 10 Penny for the Guy Tickets!",
+      "details": [
+        "Jessica Kyle won 10 Penny for the Guy Tickets!",
+        "💥 Marv’s Gunpowder Plot 💥",
+        "14 seconds ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
+    },
     {
       "winner": "Jessica Fry won 5 Tickets Into Marv's Trick Competition!",
       "details": [
         "Jessica Fry won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "4 hours ago"
+        "5 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
