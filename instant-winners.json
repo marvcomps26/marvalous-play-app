@@ -1,13 +1,22 @@
 {
-  "updatedAt": "2026-10-09T17:31:32.300Z",
-  "count": 3,
+  "updatedAt": "2026-10-09T17:46:41.823Z",
+  "count": 4,
   "winners": [
+    {
+      "winner": "Savanna Stephenson won 10 Penny for the Guy Tickets!",
+      "details": [
+        "Savanna Stephenson won 10 Penny for the Guy Tickets!",
+        "💥 Marv’s Gunpowder Plot 💥",
+        "7 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
+    },
     {
       "winner": "Amy Hardman won £75.00",
       "details": [
         "Amy Hardman won £75.00",
         "🍂 Marv’s Autumn Vault Every Ticket Wins 🍂",
-        "1 minute ago"
+        "16 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/702/conversions/01M280AH4XZPSYNNYKERW2SSJM-thumb.png"
     },
@@ -16,7 +25,7 @@
       "details": [
         "amy boden won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "4 minutes ago"
+        "19 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -25,7 +34,7 @@
       "details": [
         "Amy Hardman won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "6 minutes ago"
+        "21 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     }
