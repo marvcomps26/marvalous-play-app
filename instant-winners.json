@@ -1,13 +1,22 @@
 {
-  "updatedAt": "2026-10-11T19:16:08.489Z",
+  "updatedAt": "2026-10-11T19:31:15.694Z",
   "count": 7,
   "winners": [
+    {
+      "winner": "Eleanor Paton won 10 Penny for the Guy Tickets!",
+      "details": [
+        "Eleanor Paton won 10 Penny for the Guy Tickets!",
+        "💥 Marv’s Gunpowder Plot 💥",
+        "8 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
+    },
     {
       "winner": "Amanda Thorpe won £10.00 in site credit!",
       "details": [
         "Amanda Thorpe won £10.00 in site credit!",
         "🎈 Jason The Truckboy & Mrs Moo Balloon Pop🎈",
-        "41 minutes ago"
+        "56 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/753/conversions/Untitled-design---2026-09-29T124248.086-thumb.png"
     },
@@ -16,7 +25,7 @@
       "details": [
         "Carla Mcghee won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "1 hour ago"
+        "2 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -34,7 +43,7 @@
       "details": [
         "Kim Hughes won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "4 hours ago"
+        "5 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -43,7 +52,7 @@
       "details": [
         "Lucy Morrell won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "5 hours ago"
+        "6 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -55,15 +64,6 @@
         "7 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
-    },
-    {
-      "winner": "Carla Mcghee won 10 Penny for the Guy Tickets!",
-      "details": [
-        "Carla Mcghee won 10 Penny for the Guy Tickets!",
-        "💥 Marv’s Gunpowder Plot 💥",
-        "11 hours ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
     }
   ]
 }
