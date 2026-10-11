@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-11T17:46:03.361Z",
-  "count": 5,
+  "updatedAt": "2026-10-11T18:01:30.849Z",
+  "count": 6,
   "winners": [
     {
       "winner": "Carla Mcghee won 5 Tickets Into Marv's Trick Competition!",
       "details": [
         "Carla Mcghee won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "26 minutes ago"
+        "41 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -46,6 +46,15 @@
         "5 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
+    {
+      "winner": "Carla Mcghee won 10 Penny for the Guy Tickets!",
+      "details": [
+        "Carla Mcghee won 10 Penny for the Guy Tickets!",
+        "💥 Marv’s Gunpowder Plot 💥",
+        "10 hours ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
     }
   ]
 }
