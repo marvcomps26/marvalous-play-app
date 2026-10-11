@@ -1,7 +1,16 @@
 {
-  "updatedAt": "2026-10-11T18:31:22.745Z",
-  "count": 5,
+  "updatedAt": "2026-10-11T18:46:08.396Z",
+  "count": 7,
   "winners": [
+    {
+      "winner": "Amanda Thorpe won £10.00 in site credit!",
+      "details": [
+        "Amanda Thorpe won £10.00 in site credit!",
+        "🎈 Jason The Truckboy & Mrs Moo Balloon Pop🎈",
+        "11 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/753/conversions/Untitled-design---2026-09-29T124248.086-thumb.png"
+    },
     {
       "winner": "Carla Mcghee won 5 Tickets Into Marv's Trick Competition!",
       "details": [
@@ -16,7 +25,7 @@
       "details": [
         "charlie Webb won £75.00",
         "🍂 Marv’s Autumn Vault Every Ticket Wins 🍂",
-        "2 hours ago"
+        "3 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/702/conversions/01M280AH4XZPSYNNYKERW2SSJM-thumb.png"
     },
@@ -46,6 +55,15 @@
         "6 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
+    {
+      "winner": "Carla Mcghee won 10 Penny for the Guy Tickets!",
+      "details": [
+        "Carla Mcghee won 10 Penny for the Guy Tickets!",
+        "💥 Marv’s Gunpowder Plot 💥",
+        "11 hours ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
     }
   ]
 }
