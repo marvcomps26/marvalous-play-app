@@ -1,13 +1,22 @@
 {
-  "updatedAt": "2026-10-12T19:46:14.356Z",
+  "updatedAt": "2026-10-12T20:01:35.744Z",
   "count": 4,
   "winners": [
+    {
+      "winner": "NATALIE STAPLES won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "NATALIE STAPLES won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "3 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
     {
       "winner": "Olivia Boylin won 5 Tickets Into Marv's Trick Competition!",
       "details": [
         "Olivia Boylin won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "30 minutes ago"
+        "46 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -16,7 +25,7 @@
       "details": [
         "Georgia Dever won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "32 minutes ago"
+        "47 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
@@ -25,18 +34,9 @@
       "details": [
         "Megan Rayner won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "43 minutes ago"
+        "59 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
-    },
-    {
-      "winner": "Laura Jackson won 10 Penny for the Guy Tickets!",
-      "details": [
-        "Laura Jackson won 10 Penny for the Guy Tickets!",
-        "💥 Marv’s Gunpowder Plot 💥",
-        "55 minutes ago"
-      ],
-      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
     }
   ]
 }
