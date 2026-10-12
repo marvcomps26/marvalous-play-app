@@ -1,13 +1,31 @@
 {
-  "updatedAt": "2026-10-12T14:16:08.722Z",
-  "count": 5,
+  "updatedAt": "2026-10-12T14:31:36.885Z",
+  "count": 7,
   "winners": [
+    {
+      "winner": "Nicola Dunn won 10 Penny for the Guy Tickets!",
+      "details": [
+        "Nicola Dunn won 10 Penny for the Guy Tickets!",
+        "💥 Marv’s Gunpowder Plot 💥",
+        "2 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
+    },
+    {
+      "winner": "Nicola Dunn won 5 Tickets Into Marv's Trick Competition!",
+      "details": [
+        "Nicola Dunn won 5 Tickets Into Marv's Trick Competition!",
+        "🎃 Marv’s Trick or Joanne's Treat 🎃",
+        "2 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
+    },
     {
       "winner": "Lynn Crowder won 10 Penny for the Guy Tickets!",
       "details": [
         "Lynn Crowder won 10 Penny for the Guy Tickets!",
         "💥 Marv’s Gunpowder Plot 💥",
-        "10 minutes ago"
+        "26 minutes ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
     },
@@ -16,7 +34,7 @@
       "details": [
         "Linsey Higgins won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "47 minutes ago"
+        "1 hour ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     },
