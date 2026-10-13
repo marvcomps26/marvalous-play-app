@@ -84,21 +84,23 @@
     <iframe id="webFrame" title="Marvalous"></iframe>
   </div>
 
-  <nav class="bottom-nav">
+  
+<nav class="bottom-nav">
 
-    <button class="nav-button" onclick="goBack()" aria-label="Back">
-      <i class="fa-solid fa-arrow-left"></i>
-    </button>
+  <a class="nav-button" href="index.html#notifications" aria-label="Notifications">
+    <i class="fa-solid fa-bell"></i>
+  </a>
 
-    <a class="nav-button home" href="index.html" aria-label="App Home">
-      <i class="fa-solid fa-house"></i>
-    </a>
+  <a class="nav-button home" href="index.html" aria-label="App Home">
+    <i class="fa-solid fa-house"></i>
+  </a>
 
-    <a class="nav-button" href="index.html#notifications" aria-label="Notifications">
-      <i class="fa-solid fa-bell"></i>
-    </a>
+  <button class="nav-button" onclick="goBack()" aria-label="Back">
+    <i class="fa-solid fa-arrow-left"></i>
+  </button>
 
-  </nav>
+</nav>
+
 
   <script>
     const params = new URLSearchParams(window.location.search);
