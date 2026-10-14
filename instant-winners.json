@@ -1,7 +1,16 @@
 {
-  "updatedAt": "2026-10-14T08:16:11.625Z",
-  "count": 4,
+  "updatedAt": "2026-10-14T08:31:24.891Z",
+  "count": 5,
   "winners": [
+    {
+      "winner": "Hayley Fields Hayley Fields won £20.00",
+      "details": [
+        "Hayley Fields Hayley Fields won £20.00",
+        "🎈 Jason The Truckboy & Mrs Moo Balloon Pop🎈",
+        "3 minutes ago"
+      ],
+      "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/752/conversions/Untitled-design---2026-09-29T124342.285-thumb.png"
+    },
     {
       "winner": "Claire Bryan won 5 Tickets Into Marv's Trick Competition!",
       "details": [
@@ -25,7 +34,7 @@
       "details": [
         "Stacey Kent won 10 Penny for the Guy Tickets!",
         "💥 Marv’s Gunpowder Plot 💥",
-        "14 hours ago"
+        "15 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/688/conversions/Untitled-design---2026-09-05T114234.574-thumb.png"
     },
@@ -34,7 +43,7 @@
       "details": [
         "home home won 5 Tickets Into Marv's Trick Competition!",
         "🎃 Marv’s Trick or Joanne's Treat 🎃",
-        "14 hours ago"
+        "15 hours ago"
       ],
       "image": "https://static.rafflex.io/marvalouscompetitions.co.uk/667/conversions/Untitled-design---2026-09-03T164535.584-thumb.png"
     }
