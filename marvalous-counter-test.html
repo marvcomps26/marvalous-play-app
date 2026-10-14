@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Marvalous Counter Connection Test</title>
+<style>body{background:#111015;color:#f5f2fa;font:16px system-ui,sans-serif;max-width:650px;margin:35px auto;padding:18px}h1{font-size:25px}button{background:#7c3aed;color:white;border:0;border-radius:12px;padding:14px 18px;font-weight:700;font-size:16px}section{background:#211c2b;border:1px solid #59416f;border-radius:14px;padding:18px;margin-top:20px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px}small{color:#c5bcd1}</style></head><body>
+<h1>Marvalous Winner Counter Test</h1><p>This tests whether this hosted page can read the public Rafflex homepage. It makes no changes to your website or app.</p>
+<button id="run">Test connection</button><section><strong id="status">Ready</strong><pre id="details">Tap the button to test.</pre></section><p><small>For a meaningful test, upload this file to the same hosting origin as your app (app.marvalouscompetitions.co.uk). Opening the downloaded file locally tests a different origin.</small></p>
+<script>
+const url='https://marvalouscompetitions.co.uk/';
+const status=document.getElementById('status'),details=document.getElementById('details'),button=document.getElementById('run');
+button.onclick=async()=>{button.disabled=true;status.textContent='Testing…';details.textContent='Requesting Rafflex homepage…';const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),15000);try{
+const target=new URL(url);target.searchParams.set('_mc_ts',String(Date.now()));
+const response=await fetch(target.toString(),{mode:'cors',cache:'no-store',signal:controller.signal});
+if(!response.ok)throw new Error('HTTP '+response.status+' '+response.statusText);
+const html=await response.text();const doc=new DOMParser().parseFromString(html,'text/html');const element=doc.querySelector('#mcWinnersNumber');
+if(!element){status.textContent='Connected, but counter not found';details.textContent='The request succeeded (HTTP '+response.status+'), but #mcWinnersNumber was missing from the returned HTML. The page may differ for automated requests.';return;}
+const raw=element.getAttribute('data-count')||element.textContent.trim();const count=Number.parseInt(raw.replace(/,/g,''),10);
+if(!Number.isFinite(count)){status.textContent='Connected, but count invalid';details.textContent='Counter element found but value was: '+raw;return;}
+status.textContent='Success — '+count+' winners';details.textContent='Cross-origin request succeeded. Count extracted from #mcWinnersNumber. This confirms direct browser access from this test page at this moment.';
+}catch(err){status.textContent='Connection failed';details.textContent=(err.name==='AbortError'?'Timed out after 15 seconds.':String(err))+'\n\nIf the browser console mentions CORS or Access-Control-Allow-Origin, Rafflex does not permit this cross-origin read. Other causes include security blocks and network errors.';}finally{clearTimeout(timeout);button.disabled=false;}};
+</script></body></html>
