@@ -1,0 +1,39 @@
+
+name: Test Counter Access
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test public homepage
+        run: |
+          python3 - <<'PY'
+          import urllib.request
+          import re
+
+          url = "https://marvalouscompetitions.co.uk/"
+
+          try:
+              with urllib.request.urlopen(url, timeout=25) as response:
+                  html = response.read().decode("utf-8", errors="replace")
+                  print("HTTP status:", response.status)
+
+              if "Access Blocked" in html:
+                  print("RESULT: BLOCKED")
+              else:
+                  match = re.search(
+                      r'id=["\']mcWinnersNumber["\'][^>]*data-count=["\'](\d+)',
+                      html
+                  )
+                  if match:
+                      print("SUCCESS! Winner count:", match.group(1))
+                  else:
+                      print("Page accessible, but counter not found.")
+                      print("Counter ID present:", "mcWinnersNumber" in html)
+
+          except Exception as e:
+              print("REQUEST FAILED:", str(e))
+          PY
